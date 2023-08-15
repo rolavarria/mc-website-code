@@ -1,0 +1,609 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+		background-image: url('https://i.imgur.com/m3IwqzR.png'), url('https://i.imgur.com/ZKXUqTC.png'), url('https://i.imgur.com/chebDhH.png');
+		background-position: 0px 0px, 0px 1080px, 0px 2160px;
+		background-repeat: no-repeat, no-repeat, repeat-y;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* 
+	WEBSITE NAVIGATON BAR 
+*/
+
+header {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+		border-radius: 7px;
+		inline-size: 600px;
+		position: relative;
+		left: 650px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    z-index: 10;
+}
+
+li {
+    color: #01066b;
+    display: inline-block;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+li:hover, li.active {
+    color: #FFD600;
+    transform: scale(1.1);
+}
+
+#magic-list {
+	text-align: left;
+}
+
+/* 
+	HOME PAGE
+*/
+
+#page1 h1 {
+	font-size: 70px;
+	text-align: center;
+	text-shadow: 2px 2px 5px;
+}
+
+#desc-home-pg {
+	justify-content: center;
+}
+
+.tenor-gif-embed {
+	margin: auto;
+	border: 5px solid;
+}
+
+#home-page p {
+	font-size: 19px;
+}
+
+/* 
+		Tech Mods Page
+*/
+
+#page3 h2 {
+  text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px;
+}
+
+#page3 h3 {
+    text-align: center;
+}
+
+.tech-list {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	inline-size: 430px;
+}
+
+.tech-list img {
+	width: 110px;
+}
+
+.tech-list li {
+	text-align: center;
+	color: black;
+	font-size: 22px;
+	margin: 0px 0px 10px 0px;
+}
+
+/*
+		Mekanism
+*/
+
+#mekanism h1 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px 3px;
+}
+
+#oreprocess-tier1 {
+	border: solid;
+	width: 600px;
+	margin: 0px 150px 0px 150px;
+}
+
+#oreprocess-tier2 {
+	border: solid;
+	width: 600px;
+	margin: 0px 150px 0px 150px;
+}
+
+#t3-ore-process {
+	margin: 15px 0px 0px 135px;
+	display: block;
+	border: solid;
+	width: 650px;
+}
+
+#t4-meka-ore-process {
+	border: solid;
+	margin: 10px 0px 20px 105px;
+}
+
+#meka-back-to-top {
+	text-decoration: none;
+  font-size: 16px;
+  display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+.img-with-txt-box4 {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box4 img {
+	width: 95%;
+	height: 75%;
+	border: solid;
+}
+
+.img-with-txt-box4 h3 {
+	text-align: center;
+}
+
+.img-with-txt-box5 {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box5 img {
+	width: 95%;
+	height: 35%;
+	border: solid;
+}
+
+.img-with-txt-box5 h3 {
+	text-align: center;
+}
+
+#mekanism p {
+	font-size: 20px;
+}
+
+#mekanism h4 {
+	font-size: 22px;
+}
+
+/*
+		Bigger Reactors
+*/
+
+#bigger-reactors h1 {
+	text-align: center;
+	font-size: 50px;
+	text-shadow: 1px 2px 3px;
+}
+
+.passive-reactor-recipes img {
+	width: 250px;
+	height: 140px;
+	border: solid;
+}
+
+#br-3x3x3-size {
+	width: 600px;
+	border: solid;
+}
+
+#br-5x5x5-size {
+	width: 600px;
+	border: solid;
+}
+
+.img-with-txt-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box img {
+	width: 90%;
+	height: 37%;
+	border: solid;
+}
+
+.img-with-txt-box h3 {
+	text-align: center;
+	font-size: 17px;
+}
+
+.img-with-txt-box2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box2 img {
+	width: 55%;
+	border: solid;
+}
+
+.img-with-txt-box2 p {
+	inline-size: 420px;
+	margin: 0px 30px 0px 0px;
+}
+
+.img-with-txt-box3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box3 img {
+	width: 55%;
+	border: solid;
+}
+
+.img-with-txt-box3 p {
+	inline-size: 420px;
+	margin: 0px 0px 0px 30px;
+}
+
+#br-active-cool-reac {
+	text-align: center;
+}
+
+#br-passive-cool-reac {
+	text-align: center;
+}
+
+#br-turbine-setup {
+	border: solid;
+}
+
+#br-back-to-top {
+	text-decoration: none;
+  font-size: 16px;
+  display: block;
+	margin-top: 30px;
+	text-align: center;
+	color: #20938b;
+	text-transform: uppercase;
+}
+
+.table-of-contents table, th {
+	border: 1px solid;
+	border-collapse: collapse;
+	font-size: 25px;
+}
+
+.table-of-contents a:link, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+
+.table-of-contents td {
+	padding: 7px;
+	text-align: left;
+}
+
+.table-of-contents tr {
+	border-bottom: 1px solid #000000;
+}
+
+#bigger-reactors p {
+	font-size: 20px;
+}
+
+#bigger-reactors h4 {
+	font-size: 22px;
+}
+
+/*
+		Magic Mods Page
+*/
+
+#page2 h2 {
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px;
+}
+
+#nav-page5 {
+	color: black;
+	font-size: 20px;
+}
+
+#nav-page6 {
+	color: black;
+	font-size: 20px;
+	margin: 0 0 0 42px;
+}
+
+#botania-icon {
+	margin: 10px 0px 0px 25px;
+	width: 100px
+}
+
+#projecte-icon {
+	margin: 10px 0px 0px 35px;
+	height: 100px
+}
+
+.row {
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+}
+
+.row img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/*
+	Project E Page
+*/
+
+#projecte h1 {
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 2px 3px;
+}
+
+#projecte h2 {
+	font-size: 32px;
+	text-align: center;
+}
+
+#projecte h3{
+	font-size: 27px;
+}
+
+#phil-stone-craft {
+	float: right;
+	width: 275px;
+	border: solid;
+}
+
+#fuel-crafting {
+	float: right;
+	border: solid;
+}
+
+#transmutation-table-craft {
+	border: solid;
+	float: right;
+}
+
+#projecte p {
+	font-size: 19px;
+}
+
+.image-stack {
+	display: flex;
+	flex-direction: column;
+	width: 37%;
+	margin: auto;
+}
+
+.img-with-txt-box5 p {
+	inline-size: 430px;
+}
+
+.img-with-txt-box6 p {
+	inline-size: 440px;
+	margin: 30px 60px 0px 30px;
+}
+
+.img-with-txt-box6 {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.img-with-txt-box6 img {
+	width: 35%;
+	margin: 30px 0px 0px 0px;
+	border: solid;
+}
+
+.img-with-txt-box7 {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box7 img {
+	width: 85%;
+	height: 37%;
+	border: solid;
+}
+
+.img-with-txt-box7 h6 {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 25px 10px 0px;
+}
+
+.img-with-txt-box8 {
+	display: flex;
+	flex-direction: row;
+}
+
+.img-with-txt-box8 img {
+	width: 85%;
+	height: 75%;
+	border: solid;
+}
+
+.img-with-txt-box8 h6 {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 25px 10px 0px;
+}
+
+#simple-emc-flower {
+	width: 600px;
+	border: solid;
+	margin: 0px 0px 0px 155px;
+}
+
+#proje-basic-pf-vid {
+	border: solid;
+	margin: 0px 0px 0px 150px;
+}
+
+
+
+/* 
+	FOOTER
+*/
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+main {
+  padding: 100px 0 50px;
+}
+
+main > div {
+  padding: 20px 20px;
+	display: none;
+}
+
+
+
+/* For mobile view - do NOT edit the CSS below! */
+@media screen and (max-width: 540px) {
+
+    .row,
+    .inner-row {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #page1 img {
+        width: 200px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .row img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    header {
+        height: 12vh;
+        min-height: 100px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    ul li {
+        font-size: 18px;
+    }
+  	
+}
+
+div.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+div.column {
+	display: flex;
+	flex-direction: row;
+	float: left;
+  margin: 1% 0 1% 1.6%;
+  width: 100%;
+}
+
+.column:first-child {
+    margin-left: 0;
+}
+
+div.post {
+    background-color: white;
+    margin: 0 auto 2em auto;
+    padding: 35px 30px;
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.3);
+}
+
+/*
+	Contact Page
+*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#contact-form {
+	max-width: 1020px;
+	margin: 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
